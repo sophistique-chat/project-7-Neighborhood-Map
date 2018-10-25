@@ -120,8 +120,8 @@ class Map extends Component {
   /* -----------  ----------- */
   /*idea source: https://github.com/riceball1/google-foursquare/blob/master/src/components/App.js */
   InitFourSquare() {
-    const CLIENT_ID = 'G3OGO3RPLIAACP2P1FTCHRXPJU1VFMQWNZ05O2UIFGP2U0HR'
-    const CLIENT_SECRET = 'SCXMXCU5PP5SYZUTFCPADPPVBQAXQ5UF004ZVOPWJF0LXVQT'
+    const CLIENT_ID = 'YOUR-CLIENT-ID'
+    const CLIENT_SECRET = 'YOUR-CLIENT-SECRET'
     const DATE = '20180410'
     const RADIUS_M = 500
     const SEARCH_RESULTS = 1;
@@ -170,7 +170,7 @@ class Map extends Component {
           tabIndex="-1"
           yesIWantToUseGoogleMapApiInternals
           bootstrapURLKeys={{ 
-            key: "AIzaSyCDQjzBFJ-Jo7H08nZjDMxsMQbDJzMqY3A",
+            key: "YOUR_GOOGLE_MAPS_KEY",
             language: 'en'
           }}
           defaultCenter={this.props.center}
